@@ -20,6 +20,7 @@ class PostsController < ApplicationController
 			redirect_to @post, notice: "The post was created!"
 		else
 			render 'new'
+		end
 	end
 
 	def edit
